@@ -12,6 +12,7 @@ public class ProjectConfig {
 
     @Bean
     UserDetailsService userDetailsService(){
+
         UserDetails user = User.withUsername("Saeed")
                 .password("1234")
                 .authorities("read")
