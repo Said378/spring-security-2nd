@@ -15,6 +15,10 @@ public class ProjectConfig {
         }
 
 
+    @Bean
+    UserDetailsService duserDetailsService(){
+        return new InMemoryUserDetailsManager();
 
+    }
 
 }
